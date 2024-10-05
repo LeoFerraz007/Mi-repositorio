@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Porfolio</title>
+  </head>
+  <body>
+    <header>
+      <a class="titulo-header" href="#Home"><h3>QuasarCode</h3></a>
+      <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+      <nav id="nav" class="nav">
+        <button id="cerrar" class="cerrar-menu"><i class="bi bi-x"></i></button>
+        <ul class="nav-list">
+          <a href="#Home">Home</a>
+          <a href="#About-me">About us</a>
+          <a href="#Contact">Contact</a>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="Home">
+      <article class="article-home">
+        <h1 class="h1-home">Hi, We are QuasarCode</h1>
+        <p class="p-home">
+          Frontend developer <br />
+          <br />
+          We have a multidisciplinary team of technology experts committed to innovation and excellence. Developers, designers and consultants collaborate to deliver projects that exceed expectations.
+        </p>
+        <br />
+        <button class="button-home"><a href="#Contact">Contact us</a></button>
+      </article>
+      <aside class="aside-home"></aside>
+    </section>
+
+    <section id="About-me">
+      <article class="article_About-me">
+        <h1 class="h1_About-me">Hi, We´re QuasarCode</h1>
+        <p class="p_About-me">
+          At QuasarCode, we develop innovative technological solutions that empower our clients' success in the digital age. Our goal is to design software that optimizes processes, improves productivity and provides tangible value to each company.
+        </p>
+        <button class="button_About-me"><i class="bi bi-github"></i></button>
+      </article>
+      <aside class="aside_About-me"></aside>
+    </section>
+    
+    <section id="Contact">
+      <aside class="aside-Contact">
+            
+      </aside>
+      <article class="article-Contact">
+        <h1 class="h1-Contact">Contact us</h1>
+        <h3 class="h3-Contact">REGISTER</h3>
+
+        <input class="input-Contact" type="text"
+        name="nombres"
+        id="nombre"
+        minlength="6"
+        maxlength="20"
+        placeholder="Ingrese su nombre"
+        required
+        >
+
+        <input class="input-Contact" type="text"
+        name="apellidos"
+        id="apellido"
+        minlength="6"
+        maxlength="20"
+        placeholder="Ingrese su apellido"
+        required
+        >
+
+        <input class="input-Contact" type="email"
+        name="correos"
+        id="correo"
+        minlength="6"
+        maxlength="20"
+        placeholder="Ingrese su correo"
+        required
+        >
+
+        <input class="input-Contact" type="password"
+        name="contraseñas"
+        id="contraseña"
+        minlength="6"
+        maxlength="20"
+        placeholder="Ingrese su contraseña"
+        required
+        >
+
+        <input class="input-Contact" type="date"
+        name="fecha-nacimiento"
+        id="fechas-nacimientos"
+        required
+        >
+
+        <button class="button-Contact">Contact us</button>
+
+        <div class="redes_Contact">
+          <button class="button_redes-Contact" onclick="window.open('https://www.instagram.com/', '_blank')"><i class="bi bi-instagram"></i></button>
+          <button class="button_redes-Contact"><i class="bi bi-github"></i></button>
+          <button class="button_redes-Contact"><i class="bi bi-twitter"></i></button>
+        </div>
+
+            <p class="p-Contact">© [05/10/2024] [QuasarCode]. Todos los derechos reservados.</p>
+      </article>
+    </section>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>
